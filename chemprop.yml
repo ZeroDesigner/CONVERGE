@@ -1,0 +1,8 @@
+name: chemprop
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - chemprop=1.7.0
+  - pip:
+      - git+https://github.com/bp-kelley/descriptastorus
