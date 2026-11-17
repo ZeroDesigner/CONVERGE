@@ -55,7 +55,7 @@ ID_0001,CCOc1ccccc1
 ID_0002,CC(=O)Nc1ccc(O)cc1
 ```
 
-### 2: molecules split into fragments
+### 2: Molecules split into fragments
 
 ```bash
 mamba activate CONVERGE
@@ -66,7 +66,7 @@ python 01_mol2frag.py \
 
 The output has one column, `frag_SMILES`, containing the unique ring-centred fragments.
 
-### 3: predict the fragments
+### 3: Predict the fragments
 
 ```bash
 mamba activate chemprop
@@ -78,7 +78,7 @@ mamba activate chemprop
 
 The output has `frag_SMILES,label`, where `label` is the predicted probability.
 
-### 4: selection
+### 4: Selection
 
 ```bash
 mamba activate CONVERGE
